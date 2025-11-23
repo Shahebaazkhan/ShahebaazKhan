@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>MY PORTFOLIO</title>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="container">
+    <a href="#" class="logo">
+      My Portfolio
+    </a>
+    <!-- Hamburger Icon for mobile view -->
+    <div class="menu-icon" id="menu-icon">
+      <span>&#9776;</span> <!-- Hamburger icon -->
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#cards">Skills</a></li>
+      <li><a href="#about">AboutUs</a></li>
+      <li><a href="#contact">ContactUs</a></li>
+    </ul>
+  </div>
+</nav>
+<hr>
+<!-- Home Section -->
+<section id="home" class="banner">
+  <img src="image/myphoto.png" alt="Shopping Banner">
+  <div class="banner-content">
+    <h1>Hi There,</h1>
+    <h2>I'm Shahebaaz Khan</h2>
+    <br>
+    <h3>I Am Into Full Stack Developer</h3>
+    <br>
+    <div class="home-btn">
+      <a href="#about" class="btn">About More !</a>
+      <a href="resume/SHAHEBAAZKHAN-RESUME.pdf"class="btn" download type="application/pdf" >Download CV</a>
+    </div>
+    <br><br>
+    <div class="social-media">
+    <a href="https://www.linkedin.com/in/shahebaaz-khan-98438a2b1/"><i class="fa fa-linkedin-square" style="color: #00eaff;"></i></a>
+    <a href="https://www.facebook.com/shahebaaz.khan.756"><i class="fa fa-facebook-square" style="color: #00eaff;"></i></a>
+    <a href=""><i class="fa fa-github-square" style="color: #00eaff;"></i></a>
+    <a href="https://www.instagram.com/khan__shahebaaz__/"><i class="fa fa-instagram" style="color: #00eaff;"></i></a>
+    <a href="https://x.com/KHANSHAHEBAAZ_?t=M6mGSnoAlzHZDh1ZqtMJyg&s=09"><i class="fa fa-twitter" style="color: #00eaff;"></i></a>
+    <a href="mailto:shahebaazkhan911@gmail.com"><i class="fa fa-envelope" style="color: #00eaff;"></i></a>
+    </div>
+    
+  </div>
+</section>
+<br>
+<hr>
+
+<!-- Cards Section -->
+<section id="cards" class="cards">
+  <div class="cards-content">
+    <h2>Skills</h2>
+    <div class="card-grid">
+      
+      <div class="card">
+        <img src="image/html.jpg" alt="Product 1">
+        <h3>HTML</h3>
+        <button onclick="scrollToCards()">View More</button>
+      </div>
+
+      <div class="card">
+        <img src="image/css.png" alt="Product 2">
+        <h3>CSS</h3>
+        <button onclick="scrollToCards()">View More</button>
+      </div>
+
+      <div class="card">
+        <img src="image/js.jpg" alt="Product 3">
+        <h3>JAVASCRIPT</h3>
+        <button onclick="scrollToCards()">View More</button>
+      </div>
+
+      <div class="card">
+        <img src="image/java.jpg" alt="Product 3">
+        <h3>JAVA</h3>
+        <button onclick="scrollToCards()">View More</button>
+      </div>
+
+      <div class="card">
+        <img src="image/spring.jpg" alt="Product 3">
+        <h3>SPRING</h3>
+        <button onclick="scrollToCards()">View More</button>
+      </div>
+
+      <div class="card">
+        <img src="image/springboot.jpg" alt="Product 3">
+        <h3>SPRING BOOT</h3>
+        <button onclick="scrollToCards()">View More</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+<br>
+<hr>
+
+
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="about-content">
+    <h2>About Us</h2>
+    <p>Hi, I’m <strong>Shahebaaz Khan</strong>, a passionate Full Stack Developer from Bhiwandi.
+      I specialize in building clean, responsive, and scalable web applications using 
+      <strong>Java, Spring Boot, Hibernate, Angular, React, SQL, and JavaScript</strong>.
+    </p>
+    <p>
+      I enjoy solving complex problems, learning new technologies, and creating meaningful 
+      digital experiences. I am committed to delivering high-quality work and continuously 
+      improving my skills to grow as a developer.</p>
+  </div>
+</section>
+<br><br>
+<hr>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <div class="contact-content">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <div id="formMessage"></div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-content">
+    <p class="ptag">© 2025 ShahebaazKhan. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Link to JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>

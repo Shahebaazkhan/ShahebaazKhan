@@ -40,7 +40,7 @@ body {
   height: 350px;
   object-fit: cover;
   border-radius: 50%; /* circle */
-  box-shadow: 0 0 25px rgba(0, 255, 255, 0.35);
+  box-shadow: 0 0 18px #00eaff;
   position: relative;
   opacity: 1;
 }
@@ -268,6 +268,53 @@ body {
   font-size: 1.1rem;
 }
 
+/* Education Section */
+.education {
+  padding: 60px 20px;
+  background: #0d0d0f;
+  color: #fff;
+}
+
+.education-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.education-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #00eaff;
+  text-shadow: 0 0 15px #00eaff;
+}
+
+.edu-box {
+  background: #1e1e2f;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 5px solid #00eaff;
+  border-radius: 8px;
+  text-align: left;
+box-shadow: 0 0 18px #00eaff;
+
+}
+
+.edu-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.edu-year {
+  font-size: 1.1rem;
+  color: #00eaff;
+}
+
+.edu-detail {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+
 /* CONTACT FORM – GLASSMORPHISM */
 .contact {
   padding: 4rem 0;
@@ -289,7 +336,7 @@ body {
   background: rgba(255,255,255,0.05);
   border-radius: 15px;
   backdrop-filter: blur(8px);
-  box-shadow: 0 0 15px rgba(0,255,255,0.1);
+ box-shadow: 0 0 18px #00eaff;
 }
 
 .contact input,

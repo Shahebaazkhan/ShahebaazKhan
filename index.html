@@ -38,7 +38,7 @@
     <h1>Hi There,</h1>
     <h2>I'm Shahebaaz Khan</h2>
     <br>
-    <h3>I Am Into Full Stack Developer</h3>
+    <h3>I Am Into <span class="typing"></span></h3>
     <br>
     <div class="home-btn">
       <a href="#about" class="btn">About More !</a>
@@ -187,8 +187,19 @@
 
 <!-- Link to JavaScript -->
 <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+var typed = new Typed(".typing", {
+  strings: ["Full Stack Development", "Backend Development", "Frontend Development", "Web Development"],
+  typeSpeed: 80,
+  backSpeed: 50,
+  loop: true
+});
+</script>
+
 </body>
 </html>
+
 
 
 

@@ -12,6 +12,15 @@ body {
   color: #e6e6e6;
   line-height: 1.6;
 }
+html {
+  scroll-behavior: smooth;
+}
+section {
+  min-height: 100vh;       /* Full screen height */
+   padding-top: 80px;     /* <<< Add top padding */
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 /* NAVBAR */
 .navbar {
@@ -395,4 +404,5 @@ footer {
   color: #00eaff;
   box-shadow: 0 0 20px rgba(0,255,255,0.2);
 }
+
 

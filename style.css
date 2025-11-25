@@ -62,6 +62,11 @@ body {
   font-size: 1.3rem;
   margin: 15px 0;
 }
+
+.typing {
+ color: #00eaff;
+ text-shadow: 0 0 15px #00eaff;
+}
 .social-media a{
   padding: 0 10px;
   text-shadow: 0 0 10px #00eaff;
@@ -390,3 +395,4 @@ footer {
   color: #00eaff;
   box-shadow: 0 0 20px rgba(0,255,255,0.2);
 }
+
